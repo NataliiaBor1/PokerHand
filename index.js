@@ -1,16 +1,15 @@
 console.log('Hello');
 
-const cardIdInput = document.querySelector('#cardId');
-const cardColorInput = document.querySelector('#cardColor');
+const idInput = document.querySelector('#idInput');
+const colorInput = document.querySelector('#colorInput');
 
-concole.log(cardIdInput);
-console.log(cardColorInput); 
+console.log(idInput);
+console.log(colorInput);
 
 function setCard() {
-    const card = document.querySelector(`#${cardIdInput.value}`);
+    const card = document.querySelector(`#${idInput.value}`);
     console.log(card);
-}
-
-const editCardButton = document.querySelector('#editCardButton');
-
-editCardButton.addEventListener('click', setCard);
+    card.style.color = colorInput.value;
+  }
+  
+  document.querySelector("#editCardButton").addEventListener('click', setCard);
