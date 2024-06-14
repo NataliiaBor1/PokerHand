@@ -5,12 +5,12 @@
 }
 
 body {
-  background: #eee;
+  background: #92c7e8;
 }
 
 header {
   height: 15vh;
-  background: #444;
+  background: #28892d;
   color: #ddd;
   display: flex;
   justify-content: center;
@@ -58,7 +58,7 @@ section span:nth-of-type(3) {
   color: green;
   border: 2px solid darkgreen;
   border-radius: 5px;
-  padding: 5px 5px 5px 5px;
+  padding: 7px 7px 7px 7px;
   background-color: aquamarine;
   font-weight: bold;
 }
@@ -71,10 +71,10 @@ section span:nth-of-type(3) {
 
 #idInput{
   border-radius: 5px;
-  padding: 2px 2px 2px 2px;
+  padding: 4px 4px 4px 4px;
 }
 
 #colorInput{
   border-radius: 5px;
-  padding: 2px 2px 2px 2px;
+  padding: 4px 4px 4px 4px;
 }
