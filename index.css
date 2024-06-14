@@ -53,3 +53,28 @@ section span:nth-of-type(3) {
   width: 100px;
   border: 1px solid #000;
 }
+
+#editCardButton{
+  color: green;
+  border: 2px solid darkgreen;
+  border-radius: 5px;
+  padding: 5px 5px 5px 5px;
+  background-color: aquamarine;
+  font-weight: bold;
+}
+
+#editCardButton:hover {
+  cursor: pointer;
+  color: black;
+  background: #077d2a;
+}
+
+#idInput{
+  border-radius: 5px;
+  padding: 2px 2px 2px 2px;
+}
+
+#colorInput{
+  border-radius: 5px;
+  padding: 2px 2px 2px 2px;
+}
